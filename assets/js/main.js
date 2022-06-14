@@ -100,11 +100,11 @@ let resumeButton = document.getElementById('resume-button')
 
 // Html2pdf options
 let opt = {
-    margin:       1,
+    margin:       2,
     filename:     'Yevhenii_Diachenko_CV.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 4 },
-    jsPDF:        { format: 'a4', orientation: 'portrait' }
+    html2canvas:  { scale: 5 },
+    jsPDF:        { format: 'A4', orientation: 'portrait' }
   }
 
 // Function to call areaCv and Html2Pdf options 

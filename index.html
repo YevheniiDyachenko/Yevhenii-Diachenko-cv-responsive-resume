@@ -14,7 +14,7 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav_logo">Yevhenii Diachenko</a>
+                <a href="#" class="nav__logo">Yevhenii Diachenko</a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
 
@@ -76,7 +76,7 @@
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
                                 <img src="assets/img/perfil.jpg" alt="cv photo" class="home__img">
-                                <h1 class="home__title">YEVHENII <b>DIACHENKO</b></h1>
+                                <h1 class="home__title">YEVHENII DIACHENKO</h1>
                                 <h3 class="home__profession">QA engineer</h3>
 
                                 <!--Download PDF dutton-->
@@ -88,13 +88,15 @@
                                     <span class="home__information" class="home_link">
                                         <i class='bx bx-map home__icon' ></i> Bohodukhiv | Kharkiv obl. | UA
                                     </span>
+
                                     <span class="home__information">
-                                        <a href="mailto:ukrmail.des@gmail.com" target="_blank" class="home__link">
+                                        <a href="mailto:ukrmail.des@gmail.com" target="_blank" class="home__link" title="Send e-mail">
                                             <i class='bx bx-envelope home__icon' ></i> ukrmail.des@gmail.com
                                         </a>
                                     </span>
+
                                     <span class="home__information">
-                                        <a href="tel:+380666197227" target="_blank" class="home__link">
+                                        <a href="tel:+380666197227" target="_blank" class="home__link" title="Call">
                                             <i class='bx bx-phone home__icon' ></i> +38(066)619-72-27
                                         </a>
                                     </span> 
@@ -115,17 +117,17 @@
                         <h2 class="section-title">SOCIAL</h2>
 
                         <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/yevhenii-diachenko-46689017b/"  target="_blank" class="social__link">
-                                <i class='bx bxl-linkedin-square social__icon' ></i> @yevhenii-diachenko-46689017b
+                            <a href="https://www.linkedin.com/in/yevhenii-diachenko-46689017b/"  target="_blank" class="social__link" title="Linkedin">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @ yevhenii-diachenko-46689017b
                             </a>
-                            <a href="https://www.facebook.com/EvheniiDiachenko" target="_blank" class="social__link">
-                                <i class='bx bxl-facebook-square social__icon' ></i> @EvheniiDiachenko
+                            <a href="https://www.facebook.com/EvheniiDiachenko" target="_blank" class="social__link" title="Facebook">
+                                <i class='bx bxl-facebook-square social__icon' ></i> @ EvheniiDiachenko
                             </a>
-                            <a href="https://t.me/YevheniiDiachenko" target="_blank" class="social__link">
-                                <i class='bx bxl-telegram social__icon' ></i> @YevheniiDiachenko
+                            <a href="https://t.me/YevheniiDiachenko" target="_blank" class="social__link" title="Telegram">
+                                <i class='bx bxl-telegram social__icon' ></i> @ YevheniiDiachenko
                             </a>
-                            <a href="https://discordapp.com/users/JohnnyD#6666/" target="_blank" class="social__link">
-                                <i class='bx bxl-discord social__icon' ></i> @JohnnyD#6666
+                            <a href="https://discordapp.com/users/JohnnyD#6666/" target="_blank" class="social__link" title="Discord">
+                                <i class='bx bxl-discord social__icon' ></i> @ JohnnyD#6666
                             </a>
                         </div>
                     </section>
@@ -193,7 +195,35 @@
                             </ul>
                         </div>
                     </section>
+                        
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+                        
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English | A2+
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>
+                                    <a href="https://drive.google.com/file/d/15Gt1YVS8TTat3KAfF2cGAVmIcUdVDn9E/view?usp=sharing" target="_blank" class="certificate__link" title="Certificate">
+                                        Czech | A2
+                                    </a>                 
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Ukrainian | Native
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Russian | Fluency
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
                 </div>
+
 
                 <div class="resume__right">
                     <!--========== PROFILE ==========-->
@@ -215,9 +245,11 @@
                                 </div>
 
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">APPLIED ECONOMICS</h3>
-                                    <span class="education__studies">V. N. Karazin Kharkiv National University</span>
-                                    <span class="education__year">2010-2012</span>
+                                    <a href="https://drive.google.com/file/d/1v0rKsFJBYJe6Qs5Fiug5OkOKw9QSnsOG/view?usp=sharing" target="_blank" class="education__link" title="Diploma of Higher Education">
+                                        <h3 class="education__title">APPLIED ECONOMICS</h3>
+                                        <span class="education__year">2010-2012 | </span>
+                                        <span class="education__studies">V. N. Karazin Kharkiv National University</span>
+                                    </a>
                                 </div>
                             </div>
                             <div class="education__content">
@@ -227,11 +259,12 @@
                                 </div>
 
                                 <div class="education__data bd-grid">
+                                    <a href="https://drive.google.com/file/d/1v0360kYTHk7GBN40H4Qk-7wtpiJxvVTA/view?usp=sharing" target="_blank"class="education__link" title="Diploma of Higher Education">
                                     <h3 class="education__title">TRANSPORT MANAGMENT AND LOGISTICS</h3>
-                                    <span class="education__studies">Ukrainian State University of Railway Transport</span>
-                                    <span class="education__year">2003-2008</span>
+                                    <span class="education__year">2003-2008 | </span>
+                                    <span class="education__studies">Ukrainian State University of Railway Transport</span>    
+                                    </a>
                                 </div>
-                     
                             </div>
                         </div>
                     </section>
@@ -305,38 +338,46 @@
 
                         <div class="certificate__container bd-grid">
                             <div class="certificate__content">
-                                <a href="https://www.codecademy.com/profiles/yevheniiDiachenko6439105442/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7"  target="_blank" class="certificate__link">
+                                <a href="https://drive.google.com/file/d/1wVZREKu4lONB2nkTHvn_njIcpxqQRThm/view?usp=sharing"  target="_blank" class="certificate__link" title="Certificate">
+                                    <h3 class="certificate__title">QA Manual Certificate</h3>
+                                    <p class="certificate__description">2022 | IT NATION 2.0</p>
+                                </a>         
+                            </div>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <a href="https://www.codecademy.com/profiles/yevheniiDiachenko6439105442/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7"  target="_blank" class="certificate__link" title="Certificate">
                                     <h3 class="certificate__title">Learn HTML Course</h3>
-                                </a>
-                                <p class="certificate__description">2022 | CODEACADEMY</p>
+                                    <p class="certificate__description">2022 | CODEACADEMY</p>
+                                </a>  
                             </div>
 
                             <div class="certificate__content">
-                                <a href="https://scontent.fiev13-1.fna.fbcdn.net/v/t39.30808-6/279590146_3254951974830965_4171778596406818919_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=MsQ-vx0ibIcAX96RgP9&_nc_ht=scontent.fiev13-1.fna&oh=00_AT8iPisdP1kuwGbbhIcmqbh49Jq0JG1IXmy3COPQnpq7cA&oe=62A9DE95"  target="_blank" class="certificate__link">
+                                <a href="https://drive.google.com/file/d/1VNC5mge1Y1k8BTi140GVyfTRLghvzi0S/view?usp=sharing"  target="_blank" class="certificate__link" title="Certificate">
                                     <h3 class="certificate__title">«IT Basics Course»</h3>
+                                    <p class="certificate__description">2022 | GLOBALLOGIC EDUCATION</p>
                                 </a>
-                                <p class="certificate__description">2022 | GLOBALLOGIC EDUCATION</p>
                             </div>
 
                             <div class="certificate__content">
-                                <a href="https://clients.qatestlab.com/api/trainings/public_certificate_208510_20291.pdf"  target="_blank" class="certificate__link">
+                                <a href="https://clients.qatestlab.com/api/trainings/public_certificate_208510_20291.pdf"  target="_blank" class="certificate__link" title="Certificate">
                                     <h3 class="certificate__title">Practical Course «The Fundamentals of Software Testing»</h3>
-                                </a>
-                                <p class="certificate__description">2022 | QATESTLAB</p>
+                                    <p class="certificate__description">2022 | QATESTLAB</p>
+                                </a> 
                             </div>
 
                             <div class="certificate__content">
-                                <a href="https://courses.prometheus.org.ua:18090/downloads/3e23aa48443a40b2b663b78c40ee7150/Certificate.pdf"  target="_blank" class="certificate__link">
+                                <a href="https://courses.prometheus.org.ua:18090/downloads/3e23aa48443a40b2b663b78c40ee7150/Certificate.pdf"  target="_blank" class="certificate__link" title="Certificate">
                                     <h3 class="certificate__title">«Basics of software testing»</h3>
-                                </a>
-                                <p class="certificate__description">2021 | PROMETEUS</p>
+                                    <p class="certificate__description">2021 | PROMETEUS</p>
+                                </a>  
                             </div>
 
                             <div class="certificate__content">
-                                <a href="https://stepik.org/course/74555/info"  target="_blank" class="certificate__link">
+                                <a href="https://stepik.org/course/74555/info"  target="_blank" class="certificate__link" title="Link to the course">
                                     <h3 class="certificate__title">«Software Testing 2020. From Zero to Junior QA»</h3>
+                                    <p class="certificate__description">2021 | STEPIK</p>
                                 </a>
-                                <p class="certificate__description">2021 | STEPIK</p>
                             </div>
 
                         </div>
@@ -346,28 +387,13 @@
                    <!-- OFF. unusable container <section class="references section" id="references">
                     </section> -->
 
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
-                        
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> English | A2+
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Czech | A2
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Ukrainian | Native
-                                </li>
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Russian | Fluency
-                                </li>
-                            </ul>
-                        </div>
+                    <!--========== Additionally ==========-->
+                    <section class="additionally section" id="additionally">
+                        <h2 class="section-title">Additionally</h2>
+                        <p class="additionally__descripton"> Organized a community of interests, created events in the anticafe, participated in the organization of festivals. <br> Reduced hearing. I use a hearing aid.   
+                        </p>
                     </section>
-                    
+
                     <!--========== INTERESTS ==========-->
                     <section class="interests section">
                         <h2 class="section-title">Interests</h2>
@@ -403,7 +429,7 @@
                                 <span class="interests__name">Brew</span> 
                             </div>
                         </div>
-                    </section>
+                    </section>                            
                 </div>
             </div>        
         </main>

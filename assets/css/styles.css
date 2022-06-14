@@ -104,7 +104,7 @@ body.scale-cv{
 }
 
 .scale-cv .section{
-  padding: 1.5rem 0 .80rem;
+  padding: 0.1rem 0 .0rem;
 }
 
 .scale-cv .section-title{
@@ -279,6 +279,10 @@ img{
   font-weight: var(--font-medium);
 }
 
+.nav__logo:hover{
+  font-weight: bold;
+}
+
 .nav__toggle{
   font-size: 1.2rem;
   cursor: pointer;
@@ -304,6 +308,7 @@ img{
 
 .nav__link:hover{
   color: var(--title-color);
+  font-weight: bold;
 }
 
 .nav__icon{
@@ -319,6 +324,10 @@ img{
 /* Active menu link */
 .active-link{
   color: var(--title-color);
+}
+
+.active-link:hover{
+  color: var(--title-color)
 }
 
 /*========== HOME ==========*/
@@ -355,6 +364,7 @@ img{
 
 .home__address{
   gap: 1rem;
+  grid-template-columns: max-content;
 }
 
 .home__information{
@@ -371,7 +381,7 @@ img{
 }
 
 .home__link:hover{
-  color:var(--title-color);
+  font-weight: bold;
 }
 
 .home__icon{
@@ -393,6 +403,7 @@ img{
 .home__button-movil:hover{
   background-color: var(--text-color);
   color: var(--container-color);
+  font-weight: bold;
 }
 
 /*========== SOCIAL ==========*/
@@ -409,13 +420,19 @@ img{
 }
 
 .social__link:hover{
-  color: var(--title-color);
+  font-weight: bold;
 }
 
 .social__icon{
   font-size: 1.2rem;
   margin-right: .25rem;
 }
+
+/*========== Additionally ==========*/
+.additionally__descripton{
+  text-align: justify;
+}
+
 /*========== PROFILE ==========*/
 .profile__descripton{
   text-align: justify;
@@ -457,6 +474,10 @@ img{
   gap:.5rem;
 }
 
+.experience__description{
+  text-align: justify;
+}
+
 .education__title,
 .experience__title{
   font-size: var(--h3-font-size);
@@ -472,6 +493,13 @@ img{
   font-size: var(--small-font-size);
 }
 
+.education__link{
+  color: var(--text-color);
+}
+
+.education__link:hover{
+  font-weight: bold;
+}
 /*========== SKILLS AND LANGUAGES ==========*/
 
 .languages__content{
@@ -507,10 +535,11 @@ img{
 }
 
 .certificate__link{
-  display: inline-flex;
-  align-items: center;
-  font-size: var(--small-font-size);
   color: var(--text-color);
+}
+
+.certificate__link:hover{
+  font-weight: bold;
 }
 
 /*========== REFERENCES ==========*/
@@ -605,7 +634,8 @@ img{
   }
 
   .section-title,
-  .profile__descripton{
+  .profile__descripton,
+  .additionally__descripton{
     text-align: justify ;
   }
 
@@ -622,8 +652,8 @@ img{
   }
 
   .languages__content{
-    grid-template-columns: repeat(2,max-content);
-    column-gap: 4.5rem;
+    grid-template-columns: repeat(1,max-content);
+    column-gap: 2.5rem;
   }
 
   .interests__container{
